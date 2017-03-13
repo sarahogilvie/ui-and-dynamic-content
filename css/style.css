@@ -1,0 +1,117 @@
+/*GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Questrial|Rubik+Mono+One');
+
+body {
+    background-color: #2E7F6F;
+    text-align: center;
+    font-family: 'Questrial', arial, sans-serif;
+}
+
+.masthead-bg {
+    background-color: #194F48;
+    padding: 1rem;
+    color: #0D7F71;
+}
+
+#tag-line {
+    font-family: 'Rubik Mono One', arial, sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+.main-content-bg {
+   padding: 2rem 0; 
+}
+
+button {
+    background-color: #0DCCA5;
+    border: none;
+    padding: 20px 60px;
+}
+
+#groceryList {
+    background-color: #1AFFE2;
+    padding: 0;
+}
+
+#groceryList li {
+    border: 1px #194F48 solid;
+    padding: 5px 0;
+}
+
+hr {
+    border-color: #087F67;
+    margin: 3rem 0;
+}
+
+.footer-bg {
+    padding: 1rem;
+    background-color: #194F48;
+    color: #2E7F6F;
+}
+
+.content-box .social-media li {
+        width: calc(21.5% - 5px + 0.215rem);
+        float: left;
+        margin: 0 1rem 0 0;
+}
+    
+.content-box .social-media li:last-child a {
+        margin: 0;
+}
+
+.social-media li a:link, .social-media li a:visited {
+    color: #2E7F6F;
+}
+
+.social-media li a:hover, .social-media li a:active {
+    color: #66FFEC;
+}
+
+.contact-info {
+    clear: both;
+}
+
+.contact-info ul {
+    padding: 0;
+}
+
+.new {
+    display: none;
+}
+
+/*MAX-WIDTH*/
+@media screen and (min-width: 30rem) {
+    body {
+        text-align: left;
+        max-width: 30rem;
+    }
+    
+    .box {
+        text-align: center;
+    }
+    
+    button {
+        width: 100%;
+    }
+    
+     .content-box .social-media li {
+        max-width: 3rem;
+        float: left;
+        margin: 0 5px 0 0;
+    }
+    
+    .content-box .social-media li:last-child a {
+        margin: 0;
+    }
+    
+    .contact-info ul {
+    padding: 2rem;
+    }
+    
+    #groceryList li {
+        padding-left: 1rem;
+    }
+}
